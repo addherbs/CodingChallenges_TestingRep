@@ -62,8 +62,6 @@ class FirstMissingPositive {
 
         int maxValue = Collections.max(intList);
         int minValue = Collections.min(intList);
-        
-
 
     }
 

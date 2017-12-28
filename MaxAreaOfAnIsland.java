@@ -43,13 +43,13 @@ class Solution {
 
     private int checkPixel(int[][] grid, int i, int j){
 
-        if(checkEdge(i,j)){
-            return 0;
-        }
         if(filled[i][j] == 1){
             return 0;
         }
 
+        if(checkEdge(i,j)){
+            return 0;
+        }
 
         if( grid[i][j]==1){
             filled[i][j]=1;
